@@ -1,5 +1,7 @@
 # Python Package Template Project
 
+Forked from AlexIoannides/py-package-template
+
 [![image](https://img.shields.io/pypi/v/py-package-template.svg)](https://pypi.org/project/py-package-template/)
 [![Build Status](https://travis-ci.org/AlexIoannides/py-package-template.svg?branch=master)](https://travis-ci.org/AlexIoannides/py-package-template)
 
@@ -249,7 +251,7 @@ script:
 
 deploy:
   provider: pypi
-  user: alexioannides
+  user:
   password:
     secure: my-encrypted-pypi-password
   on:
